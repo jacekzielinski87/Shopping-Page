@@ -1,7 +1,18 @@
 import React from 'react'
+import { Products } from '../../products'
+import {Product} from './product';
 
-export const shop = () => {
+export const Shop = () => {
   return (
-    <div>shop</div>
+    <div className='shop'>
+        <div className='shopTitle'>
+            <h1>This is your e-shop</h1>
+        </div>
+        <div className='products'>
+            {Products.map((product) => (
+                <Product data={product} />
+            ))}
+        </div>
+    </div>
   )
 }
