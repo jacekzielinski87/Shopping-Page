@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Carlito&family=K2D:wght@200&family=Luxurious+Roman&family=Merriweather&family=Racing+Sans+One&family=Raleway:wght@300&family=Rubik+Glitch&display=swap');
+
+
+
+
+
 .shopTitle {
     color:#fffefe;
     margin-top: 50px;
     text-align: center;
-    font-size: 32px;
+    font-size: 22px;
     position: absolute;
-    bottom: 623px;
+    bottom: 640px;
     left:65px;
+    font-family: 'Merriweather', serif;
 }
 
 .products {

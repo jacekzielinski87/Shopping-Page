@@ -7,6 +7,8 @@ const {id, productName, price, productImage} = props.data;
 
 const {addToCart, cartItems} = useContext(ShopContext);
 
+const cartItemAmount = cartItems[id];
+
   return (
     <div className='product'>
         <img src={productImage}/>
@@ -17,7 +19,7 @@ const {addToCart, cartItems} = useContext(ShopContext);
                 <p>{price} $</p>
         </div>
             <button className="addToCartBtn" onClick={() => addToCart(id)}>
-            Add to Cart
+            Add to Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
             </button>
     </div>
   )

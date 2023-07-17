@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Carlito&family=K2D:wght@200&family=Luxurious+Roman&family=Merriweather&family=Racing+Sans+One&family=Raleway:wght@300&family=Rubik+Glitch&display=swap');
+
+
+
+
+
+.cart {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartItem {
+    width:700px;
+    height:350px;
+    display:flex;
+
+    align-items: center;
+    box-shadow:  0px 3px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    margin: 30px;
+}
+
+.cartItem img {
+    width:350px;
+}
+
+.cartItem .description {
+    width:100%;
+    font-size: 30px;
+}
+
+.countHandler input {
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.checkout button {
+    width:150px;
+    height:75px;
+    background-color: rgb (17, 17, 17);
+    color:#fff;
+    border:none;
+    border-radius: 8px;
+    margin:10px;
+    cursor: pointer;
+}
+
+.continue, .checkout {
+    background-color: rgb(1, 17, 17, 17);
+    color:#fff;
+    
+}
