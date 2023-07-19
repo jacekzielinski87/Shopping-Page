@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Carlito&family=K2D:wght@200&family=Luxurious+Roman&family=Merriweather&family=Racing+Sans+One&family=Raleway:wght@300&family=Rubik+Glitch&display=swap');
 
 
-
-
-
 .cart {
     display:flex;
     flex-direction: column;
@@ -51,5 +48,22 @@
 .continue, .checkout {
     background-color: rgb(1, 17, 17, 17);
     color:#fff;
-    
+    width:150px;
+    height:40px;
+    border:2px solid #fff;
+    border-radius: 8px;
+}
+
+.empty {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.8rem;
+}
+
+.yourItems {
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.6em;
+    position: relative;
+    bottom:95px;
+    right:240px;
 }
